@@ -1,15 +1,8 @@
-// Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
-//
-// Examples (Input -> Output):
-// * "String"      -> "SSttrriinngg"
-// * "Hello World" -> "HHeelllloo  WWoorrlldd"
-// * "1234!_ "     -> "11223344!!__  "
+// remove every second array
 
-function doubleChar(str) {
-  let arr = str.split('')
+function removeEveryOther(arr){
   for(let i = 0; i < arr.length; i++){
-    arr.splice(i,0,arr[i])
-    i++
+    arr.splice(i+1,1)
   }
-  return arr.join('')
+  return arr
 }
