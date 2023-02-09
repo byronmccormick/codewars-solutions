@@ -7,6 +7,7 @@
 // Output
 // You must output a string containing the two strings with the word ```' are '```
 // Reference: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings
+//
 
 var TempleStrings = function(obj, feature) {
     return `${obj} are ${feature}`
