@@ -59,4 +59,4 @@ function toNato(words) {
       }
     }
   return result.join(" ")
-
+}
